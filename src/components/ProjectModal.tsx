@@ -193,7 +193,7 @@ export const ProjectModal: React.FC<ProjectModalProps> = ({
                   <div className="text-[10px] uppercase tracking-widest text-[#888888] mb-1 font-mono-spec">
                     {project.category}
                   </div>
-                  <h2 className="text-[22px] sm:text-[26px] font-medium tracking-tight text-white leading-tight mb-2">
+                  <h2 className="font-project-title text-[22px] sm:text-[26px] font-medium tracking-tight text-white leading-tight mb-2">
                     {project.title}
                   </h2>
                   <p className="text-[13px] text-neutral-300">

@@ -1,5 +1,13 @@
 @import "tailwindcss";
 
+@font-face {
+  font-family: 'Manrope';
+  src: url('./assets/fonts/manrope-variable.ttf') format('truetype');
+  font-style: normal;
+  font-weight: 200 800;
+  font-display: swap;
+}
+
 @layer base {
   :root {
     --bg-editorial: #F9F9F7;
@@ -26,6 +34,11 @@
     font-family: 'JetBrains Mono', monospace;
     letter-spacing: -0.02em;
   }
+}
+
+/* One font covers both scripts in project names, including Cyrillic. */
+.font-project-title {
+  font-family: 'Manrope', Arial, sans-serif;
 }
 
 /* Hairline borders */

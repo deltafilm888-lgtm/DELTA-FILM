@@ -94,7 +94,7 @@ export const SelectedWork: React.FC<SelectedWorkProps> = ({ projects, onSelectPr
                 {/* Minimalist Project Info */}
                 <div className="space-y-1 pt-1">
                   <div className="flex items-baseline justify-between gap-2">
-                    <h3 className="text-[11px] sm:text-[13px] tracking-wider uppercase font-bold text-[#1A1A1A] group-hover:text-black">
+                    <h3 className="font-project-title text-[11px] sm:text-[13px] tracking-wider uppercase font-bold text-[#1A1A1A] group-hover:text-black">
                       {project.title}
                     </h3>
                     <div className="text-[10px] tracking-widest text-[#888888] font-mono-spec flex items-center gap-1 group-hover:text-[#1A1A1A] transition-colors whitespace-nowrap">
