@@ -1,5 +1,6 @@
 import { Project, PressMention } from '../types';
 import sberbankAdImg from '../assets/images/sberbank_ad_final_1787727855659.jpg';
+import sberbankNeonCardImg from '../assets/images/sberbank-neon-card-campaign.png';
 import forbesNilettoImg from '../assets/images/forbes.jpg';
 
 export const PROJECTS: Project[] = [
@@ -84,8 +85,9 @@ export const PROJECTS: Project[] = [
     category: 'COMMERCIAL',
     year: '2021',
     youtubeId: 'FP5Awwf0tZI',
-    stillUrl: sberbankAdImg,
+    stillUrl: sberbankNeonCardImg,
     stills: [
+      sberbankNeonCardImg,
       sberbankAdImg
     ],
     highlightBadge: 'COMMERCIAL CAMPAIGN',
