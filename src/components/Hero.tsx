@@ -11,6 +11,7 @@ export const Hero: React.FC<HeroProps> = ({ onOpenFeaturedProject, onScrollToWor
       {/* Centered Large Bold Title Section */}
       <div className="max-w-[1720px] mx-auto px-4 sm:px-8 pt-10 sm:pt-14 pb-8 sm:pb-10 text-center border-b border-[#1A1A1A]/10">
         <h1 className="text-4xl sm:text-6xl md:text-7xl lg:text-8xl font-medium tracking-tight uppercase text-[#1A1A1A] leading-[0.95]">
+          <span className="sr-only">Artem Sambura (Tom) — DELTA FILM: </span>
           DIRECTOR / PRODUCER
         </h1>
         <p className="text-[12px] sm:text-[14px] uppercase tracking-[0.25em] text-[#666666] mt-4 font-mono-spec">
@@ -68,7 +69,7 @@ export const Hero: React.FC<HeroProps> = ({ onOpenFeaturedProject, onScrollToWor
               
               <div className="space-y-4">
                 <p className="text-[14px] sm:text-[15px] leading-relaxed text-[#444444]">
-                  Artem Sambura is a director and creative producer behind landmark music videos, visual identities for major entertainment formats, and commercial films for major tech and telecom enterprises.
+                  Artem Sambura (Tom), founder of DELTA FILM, is a director and creative producer behind landmark music videos, visual identities for major entertainment formats, and commercial films for major tech and telecom enterprises.
                 </p>
               </div>
 
@@ -77,10 +78,10 @@ export const Hero: React.FC<HeroProps> = ({ onOpenFeaturedProject, onScrollToWor
                   DIRECT CONTACT
                 </div>
                 <a
-                  href="mailto:hello@deltafilm.com"
+                  href="mailto:hello@delta-film.com"
                   className="text-[12px] text-[#555555] hover:text-[#1A1A1A] transition-colors block font-mono-spec"
                 >
-                  hello@deltafilm.com
+                  hello@delta-film.com
                 </a>
               </div>
 
@@ -88,13 +89,14 @@ export const Hero: React.FC<HeroProps> = ({ onOpenFeaturedProject, onScrollToWor
 
             {/* Quick Action Button */}
             <div className="pt-6 border-t border-[#1A1A1A]/10">
-              <button
+              <a
+                href="#selected-work"
                 onClick={onScrollToWork}
                 className="w-full py-3.5 border border-[#1A1A1A] bg-[#1A1A1A] text-[#F9F9F7] hover:bg-transparent hover:text-[#1A1A1A] text-[11px] uppercase tracking-[0.2em] font-bold transition-all duration-150 cursor-pointer flex items-center justify-between px-4"
               >
                 <span>SELECTED WORKS</span>
                 <span className="text-[10px]">↓</span>
-              </button>
+              </a>
             </div>
 
           </div>

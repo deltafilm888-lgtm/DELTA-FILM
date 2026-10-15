@@ -53,7 +53,16 @@ export const SelectedWork: React.FC<SelectedWorkProps> = ({ projects, onSelectPr
               <div
                 key={project.id}
                 className="group cursor-pointer space-y-3"
+                role="button"
+                tabIndex={0}
+                aria-label={`View project: ${project.title}`}
                 onClick={() => onSelectProject(project)}
+                onKeyDown={(event) => {
+                  if (event.key === 'Enter' || event.key === ' ') {
+                    event.preventDefault();
+                    onSelectProject(project);
+                  }
+                }}
               >
                 {/* Visual Frame in strict 16:9 Aspect Ratio */}
                 <div className="relative aspect-video bg-[#EAEAEA] border border-[#1A1A1A]/10 overflow-hidden">
@@ -85,9 +94,9 @@ export const SelectedWork: React.FC<SelectedWorkProps> = ({ projects, onSelectPr
                 {/* Minimalist Project Info */}
                 <div className="space-y-1 pt-1">
                   <div className="flex items-baseline justify-between gap-2">
-                    <div className="text-[11px] sm:text-[13px] tracking-wider uppercase font-bold text-[#1A1A1A] group-hover:text-black">
+                    <h3 className="text-[11px] sm:text-[13px] tracking-wider uppercase font-bold text-[#1A1A1A] group-hover:text-black">
                       {project.title}
-                    </div>
+                    </h3>
                     <div className="text-[10px] tracking-widest text-[#888888] font-mono-spec flex items-center gap-1 group-hover:text-[#1A1A1A] transition-colors whitespace-nowrap">
                       <span>VIEW</span>
                       <ArrowUpRight className="w-3 h-3" />

@@ -22,18 +22,20 @@ export const Header: React.FC<HeaderProps> = ({ onScrollToWork, onScrollToContac
 
         {/* Right Studio Title & Navigation */}
         <div className="flex items-center space-x-6 text-[10px] sm:text-[11px] tracking-widest">
-          <button 
+          <a
+            href="#selected-work"
             onClick={onScrollToWork}
             className="text-[#666666] hover:text-[#1A1A1A] transition-colors cursor-pointer"
           >
             SELECTED WORKS
-          </button>
-          <button 
+          </a>
+          <a
+            href="#contact"
             onClick={onScrollToContact}
             className="text-[#666666] hover:text-[#1A1A1A] transition-colors cursor-pointer"
           >
             CONTACT
-          </button>
+          </a>
         </div>
       </div>
     </header>
