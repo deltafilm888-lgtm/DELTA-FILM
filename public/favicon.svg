@@ -1,4 +1,1 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
-  <rect width="64" height="64" fill="#F9F9F7"/>
-  <path fill="#1A1A1A" fill-rule="evenodd" d="M32 6 61.4449 57H2.5551ZM32 22.8 17.104 48.6H46.896Z"/>
-</svg>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64"><style>path{fill:#1A1A1A}@media(prefers-color-scheme:dark){path{fill:#F9F9F7}}</style><path fill-rule="evenodd" d="M32 5 62.02221 57H1.97779ZM32 17 12.37009 51H51.62991Z"/></svg>
