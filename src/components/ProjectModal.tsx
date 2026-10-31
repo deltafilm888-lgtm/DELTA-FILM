@@ -152,7 +152,7 @@ export const ProjectModal: React.FC<ProjectModalProps> = ({
                   <img
                     src={galleryImages[selectedImgIndex]}
                     alt={`${project.title} still ${selectedImgIndex + 1}`}
-                    className="w-full h-full object-cover"
+                    className={`w-full h-full object-cover ${project.id === 'zippo-karie-glaza' ? 'scale-[1.36]' : ''}`}
                     referrerPolicy="no-referrer"
                   />
                 </div>

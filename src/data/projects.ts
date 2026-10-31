@@ -55,7 +55,7 @@ export const PROJECTS: Project[] = [
   },
   {
     id: 'zippo-karie-glaza',
-    title: 'ZippO — КАРИЕ ГЛАЗА',
+    title: 'ZippO — Brown Eyes',
     client: 'ZippO',
     artistOrClient: 'ZippO',
     role: 'Director & Editor',

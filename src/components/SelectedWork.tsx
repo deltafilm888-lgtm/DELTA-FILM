@@ -73,6 +73,8 @@ export const SelectedWork: React.FC<SelectedWorkProps> = ({ projects, onSelectPr
                     className={`w-full h-full object-cover grayscale group-hover:grayscale-0 opacity-90 group-hover:opacity-100 transition-all duration-500 ease-out origin-center ${
                       project.id === 'alyona-alyona-pushka'
                         ? 'scale-[1.34] group-hover:scale-[1.38]'
+                        : project.id === 'zippo-karie-glaza'
+                          ? 'scale-[1.36] group-hover:scale-[1.40]'
                         : 'group-hover:scale-[1.03]'
                     }`}
                     loading="lazy"
