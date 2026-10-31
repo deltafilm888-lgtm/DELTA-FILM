@@ -2,6 +2,7 @@ import { Project, PressMention } from '../types';
 import sberbankAdImg from '../assets/images/sberbank_ad_final_1787727855659.jpg';
 import sberbankNeonCardImg from '../assets/images/sberbank-neon-card-campaign.png';
 import forbesNilettoImg from '../assets/images/forbes.jpg';
+import zippoKarieGlazaImg from '../assets/images/zippo-karie-glaza.jpg';
 
 export const PROJECTS: Project[] = [
   {
@@ -50,6 +51,28 @@ export const PROJECTS: Project[] = [
       { role: 'Director', name: 'Artem Sambura (Tom)' },
       { role: 'Editor', name: 'Artem Sambura' },
       { role: 'Artist', name: 'NILETTO' }
+    ]
+  },
+  {
+    id: 'zippo-karie-glaza',
+    title: 'ZippO — КАРИЕ ГЛАЗА',
+    client: 'ZippO',
+    artistOrClient: 'ZippO',
+    role: 'Director & Editor',
+    category: 'MUSIC',
+    year: '2019',
+    youtubeId: 'ydKsxTYYnCE',
+    stillUrl: zippoKarieGlazaImg,
+    stills: [zippoKarieGlazaImg],
+    highlightBadge: 'CINEMATIC',
+    synopsis: 'Cinematic music video for ZippO, shot on ARRI Alexa Mini LF with anamorphic lenses.',
+    specs: {
+      camera: 'ARRI Alexa Mini LF · Anamorphic Lenses'
+    },
+    credits: [
+      { role: 'Director & Editor', name: 'Artem Sambura (Tom)' },
+      { role: 'Cinematography', name: 'Basket Films' },
+      { role: 'Artist', name: 'ZippO' }
     ]
   },
   {
