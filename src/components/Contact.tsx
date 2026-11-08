@@ -99,6 +99,16 @@ export const Contact: React.FC = () => {
 
           {/* Studio Brand Stamp */}
           <div className="lg:col-span-4 flex flex-col justify-end border-t lg:border-t-0 lg:border-l border-[#1A1A1A]/10 lg:pl-10 pt-6 lg:pt-0">
+            <div id="lut-pack" className="mb-8 scroll-mt-24">
+              <h3 className="text-base font-medium text-[#1A1A1A]">DaVinci Resolve LUT pack</h3>
+              <p className="mt-1 text-sm text-[#555555]">$10 at launch.</p>
+              <a
+                href="mailto:hello@delta-film.com?subject=DELTA%20LUT%20pack%20launch&amp;body=Hi%20Artem%2C%20please%20email%20me%20when%20the%20%2410%20Resolve%20LUT%20pack%20launches."
+                className="inline-flex min-h-11 items-center text-sm text-[#1A1A1A] underline underline-offset-4 hover:text-[#555555] focus-visible:outline-2 focus-visible:outline-offset-4"
+              >
+                Request a launch email
+              </a>
+            </div>
             <h3 className="text-[28px] sm:text-[34px] font-bold uppercase tracking-[0.2em] text-[#1A1A1A] leading-none">
               DELTA FILM
             </h3>

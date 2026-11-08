@@ -1,4 +1,7 @@
 import React from 'react';
+import { editEnquiryLinks } from '../data/editEnquiries';
+
+const enquiry = editEnquiryLinks();
 
 interface HeroProps {
   onOpenFeaturedProject?: () => void;
@@ -9,7 +12,7 @@ export const Hero: React.FC<HeroProps> = ({ onOpenFeaturedProject, onScrollToWor
   return (
     <section className="relative w-full border-b border-[#1A1A1A] bg-[#F9F9F7] overflow-hidden">
       {/* Centered Large Bold Title Section */}
-      <div className="max-w-[1720px] mx-auto px-4 sm:px-8 pt-10 sm:pt-14 pb-8 sm:pb-10 text-center border-b border-[#1A1A1A]/10">
+      <div id="book-an-edit" className="scroll-mt-20 max-w-[1720px] mx-auto px-4 sm:px-8 pt-10 sm:pt-14 pb-8 sm:pb-10 text-center border-b border-[#1A1A1A]/10">
         <h1 className="text-4xl sm:text-6xl md:text-7xl lg:text-8xl font-medium tracking-tight uppercase text-[#1A1A1A] leading-[0.95]">
           <span className="sr-only">Artem Sambura (Tom) — DELTA FILM: </span>
           DIRECTOR / PRODUCER
@@ -17,6 +20,14 @@ export const Hero: React.FC<HeroProps> = ({ onOpenFeaturedProject, onScrollToWor
         <p className="text-[12px] sm:text-[14px] uppercase tracking-[0.25em] text-[#666666] mt-4 font-mono-spec">
           MUSIC VIDEOS · COMMERCIALS · ENTERTAINMENT
         </p>
+        <div className="mt-6 flex flex-wrap items-center justify-center gap-x-5 gap-y-2">
+          <a href={enquiry.email} className="inline-flex min-h-11 items-center justify-center border border-[#1A1A1A] bg-[#1A1A1A] px-5 py-3 text-[11px] font-bold uppercase tracking-widest text-[#F9F9F7] hover:bg-transparent hover:text-[#1A1A1A] focus-visible:outline-2 focus-visible:outline-offset-4">
+            Get an edit quote
+          </a>
+          <a href={enquiry.whatsapp} className="inline-flex min-h-11 items-center px-1 text-[12px] text-[#444444] underline decoration-[#888888] underline-offset-4 hover:text-black focus-visible:outline-2 focus-visible:outline-offset-4" aria-label="Request an edit quote on WhatsApp">
+            WhatsApp
+          </a>
+        </div>
       </div>
 
       {/* Main Hero Visual Section */}
@@ -69,7 +80,7 @@ export const Hero: React.FC<HeroProps> = ({ onOpenFeaturedProject, onScrollToWor
               
               <div className="space-y-4">
                 <p className="text-[14px] sm:text-[15px] leading-relaxed text-[#444444]">
-                  Artem Sambura (Tom), founder of DELTA FILM, is a director and creative producer behind landmark music videos, visual identities for major entertainment formats, and commercial films for major tech and telecom enterprises.
+                  I’m Artem Sambura (Tom), director and editor at DELTA FILM. I cut music videos and brand films, handle the grade and sound design, and deliver social versions from the same footage. My work includes campaigns for MTS and Sberbank.
                 </p>
               </div>
 

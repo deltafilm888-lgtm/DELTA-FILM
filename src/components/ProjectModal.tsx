@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import { Project } from '../types';
+import { editEnquiryLinks } from '../data/editEnquiries';
 import { X, ChevronLeft, ChevronRight } from 'lucide-react';
 import { motion, AnimatePresence } from 'motion/react';
 
@@ -214,6 +215,12 @@ export const ProjectModal: React.FC<ProjectModalProps> = ({
                   <p className="text-[13px] leading-relaxed text-neutral-300">
                     {project.synopsis}
                   </p>
+                  <a
+                    href={editEnquiryLinks(project.title).email}
+                    className="inline-flex min-h-11 items-center text-sm font-medium text-white underline underline-offset-4 hover:text-neutral-300 focus-visible:outline-2 focus-visible:outline-offset-4"
+                  >
+                    Request a similar edit
+                  </a>
                 </div>
 
                 {/* Technical Specifications (Only Camera / Core Gear) */}
