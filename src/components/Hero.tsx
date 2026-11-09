@@ -14,7 +14,7 @@ export const Hero: React.FC<HeroProps> = ({ onOpenFeaturedProject, onScrollToWor
       {/* Centered Large Bold Title Section */}
       <div id="book-an-edit" className="scroll-mt-20 max-w-[1720px] mx-auto px-4 sm:px-8 pt-10 sm:pt-14 pb-8 sm:pb-10 text-center border-b border-[#1A1A1A]/10">
         <h1 className="text-4xl sm:text-6xl md:text-7xl lg:text-8xl font-medium tracking-tight uppercase text-[#1A1A1A] leading-[0.95]">
-          <span className="sr-only">Artem Sambura (Tom) — DELTA FILM: </span>
+          <span className="sr-only">Artem Sambura (Tommy) — DELTA FILM: </span>
           DIRECTOR / PRODUCER
         </h1>
         <p className="text-[12px] sm:text-[14px] uppercase tracking-[0.25em] text-[#666666] mt-4 font-mono-spec">
@@ -80,7 +80,7 @@ export const Hero: React.FC<HeroProps> = ({ onOpenFeaturedProject, onScrollToWor
               
               <div className="space-y-4">
                 <p className="text-[14px] sm:text-[15px] leading-relaxed text-[#444444]">
-                  I’m Artem Sambura (Tom), director and editor at DELTA FILM. I cut music videos and brand films, handle the grade and sound design, and deliver social versions from the same footage. My work includes campaigns for MTS and Sberbank.
+                  I’m Artem Sambura (Tommy), director and editor at DELTA FILM. I cut music videos and brand films, handle the grade and sound design, and deliver social versions from the same footage. My work includes campaigns for MTS and Sberbank.
                 </p>
               </div>
 
