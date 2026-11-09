@@ -12,7 +12,7 @@ export const Header: React.FC<HeaderProps> = ({ onScrollToWork, onScrollToContac
         {/* Left Branding */}
         <div className="flex items-center gap-3">
           <span className="font-bold tracking-widest text-[#1A1A1A]">
-            TOM / ARTETOMMYAMBURA
+            TOMMY / ARTEM SAMBURA
           </span>
           <span className="text-[#888888] hidden sm:inline">·</span>
           <span className="text-[#888888] hidden sm:inline tracking-wider">
