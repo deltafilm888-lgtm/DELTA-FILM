@@ -24,7 +24,7 @@ export const PROJECTS: Project[] = [
       camera: 'ARRI Alexa Mini LF + VFX'
     },
     credits: [
-      { role: 'Visual Branding & Intro', name: 'Artem Sambura (Tom)' },
+      { role: 'Visual Branding & Intro', name: 'Artem Sambura (Tommy)' },
       { role: 'Network / Platform', name: 'TNT / Labelcom' }
     ]
   },
@@ -48,7 +48,7 @@ export const PROJECTS: Project[] = [
       camera: 'RED Helium 8K S35'
     },
     credits: [
-      { role: 'Director', name: 'Artem Sambura (Tom)' },
+      { role: 'Director', name: 'Artem Sambura (Tommy)' },
       { role: 'Editor', name: 'Artem Sambura' },
       { role: 'Artist', name: 'NILETTO' }
     ]
@@ -70,7 +70,7 @@ export const PROJECTS: Project[] = [
       camera: 'ARRI Alexa Mini LF · Anamorphic Lenses'
     },
     credits: [
-      { role: 'Director & Editor', name: 'Artem Sambura (Tom)' },
+      { role: 'Director & Editor', name: 'Artem Sambura (Tommy)' },
       { role: 'Cinematography', name: 'Basket Films' },
       { role: 'Artist', name: 'ZippO' }
     ]
@@ -94,7 +94,7 @@ export const PROJECTS: Project[] = [
       camera: 'RED Monstro 8K VV'
     },
     credits: [
-      { role: 'Director', name: 'Artem Sambura (Tom)' },
+      { role: 'Director', name: 'Artem Sambura (Tommy)' },
       { role: 'Agency / Client', name: 'MTS Telecommunications' },
       { role: 'Featuring', name: 'Big Baby Tape' }
     ]
@@ -119,7 +119,7 @@ export const PROJECTS: Project[] = [
       camera: 'RED Monstro 8K VV'
     },
     credits: [
-      { role: 'Director & Editor', name: 'Artem Sambura (Tom)' },
+      { role: 'Director & Editor', name: 'Artem Sambura (Tommy)' },
       { role: 'Client', name: 'Sberbank' }
     ]
   },
@@ -142,7 +142,7 @@ export const PROJECTS: Project[] = [
       camera: 'Sony Alpha'
     },
     credits: [
-      { role: 'Director', name: 'Artem Sambura (Tom)' },
+      { role: 'Director', name: 'Artem Sambura (Tommy)' },
       { role: 'Editor', name: 'Artem Sambura' }
     ]
   },
@@ -165,7 +165,7 @@ export const PROJECTS: Project[] = [
       camera: 'ARRI Alexa Mini / Vintage Glass'
     },
     credits: [
-      { role: 'Director', name: 'Artem Sambura (Tom)' },
+      { role: 'Director', name: 'Artem Sambura (Tommy)' },
       { role: 'Artist', name: 'KOZAK SIROMAHA' },
       { role: 'Label', name: 'ENKO' }
     ]
@@ -189,7 +189,7 @@ export const PROJECTS: Project[] = [
       camera: 'Blackmagic Cinema Camera'
     },
     credits: [
-      { role: 'Director & Colorist', name: 'Artem Sambura (Tom)' }
+      { role: 'Director & Colorist', name: 'Artem Sambura (Tommy)' }
     ]
   },
   {
@@ -211,7 +211,7 @@ export const PROJECTS: Project[] = [
       camera: 'Sony Alpha'
     },
     credits: [
-      { role: 'Director', name: 'Artem Sambura (Tom)' },
+      { role: 'Director', name: 'Artem Sambura (Tommy)' },
       { role: 'Artist', name: 'KALUSH' }
     ]
   }
