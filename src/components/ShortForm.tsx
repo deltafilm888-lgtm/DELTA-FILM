@@ -25,7 +25,10 @@ export function ShortForm() {
         <div className="grid items-center gap-6 border-t border-[#1A1A1A]/10 py-6 sm:grid-cols-2 sm:gap-8 sm:py-8">
           <div className="sm:justify-self-center">
             <h2 className="font-project-title text-2xl font-bold tracking-tight sm:text-4xl">DND Active</h2>
-            <p className="mt-3 text-base font-semibold">≈500K views in 5 hours</p>
+            <p className="mt-3 text-base font-semibold">1M views in 17 hours</p>
+            <p className="mt-2 max-w-sm text-base leading-relaxed text-[#555555]">
+              Viral reel for activewear brand DND Active, styled as a retro TV infomercial.
+            </p>
             <a href={reelUrl} target="_blank" rel="noopener noreferrer" className="mt-1 inline-block text-sm text-[#555555] underline underline-offset-4">
               On @dndactive.co
             </a>
