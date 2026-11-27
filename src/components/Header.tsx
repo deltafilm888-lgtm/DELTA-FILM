@@ -1,4 +1,5 @@
 import React from 'react';
+import { StudioMark } from './StudioMark';
 
 interface HeaderProps {
   onScrollToWork?: () => void;
@@ -11,8 +12,8 @@ export const Header: React.FC<HeaderProps> = ({ onScrollToWork, onScrollToContac
       <div className="max-w-[1720px] mx-auto px-3 min-[380px]:px-4 sm:px-8 py-2 sm:py-3 flex items-center justify-between gap-3 text-[11px] sm:text-[12px] uppercase tracking-widest leading-none text-[#1A1A1A]">
         {/* Left Branding */}
         <div className="flex min-w-0 items-center gap-2 sm:gap-3">
-          <a href="/" aria-label="DELTA FILM home" className="shrink-0">
-            <img src="/favicon.svg?v=monogram" alt="" width="48" height="48" className="h-11 w-11 sm:h-12 sm:w-12" />
+          <a href="/" aria-label="DELTA FILM home" className="flex h-11 w-11 shrink-0 items-center sm:h-12 sm:w-12">
+            <StudioMark className="h-auto w-9 sm:w-11" />
           </a>
           <span className="font-bold tracking-widest leading-tight text-[#1A1A1A]">
             TOMMY / ARTEM SAMBURA

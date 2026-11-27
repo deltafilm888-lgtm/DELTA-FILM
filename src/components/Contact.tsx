@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import { StudioMark } from './StudioMark';
 import { Copy, Check } from 'lucide-react';
 
 export const Contact: React.FC = () => {
@@ -110,7 +111,7 @@ export const Contact: React.FC = () => {
               </a>
             </div>
             <h3 className="flex flex-wrap items-center gap-3 text-[28px] sm:text-[34px] font-bold uppercase tracking-[0.2em] text-[#1A1A1A] leading-none">
-              <img src="/favicon.svg?v=monogram" alt="" width="56" height="56" className="h-12 w-12 sm:h-14 sm:w-14" />
+              <StudioMark className="h-auto w-10 shrink-0 sm:w-12" />
               DELTA FILM
             </h3>
           </div>
