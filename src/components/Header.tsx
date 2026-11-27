@@ -16,7 +16,7 @@ export const Header: React.FC<HeaderProps> = ({ onScrollToWork, onScrollToContac
             <StudioMark className="h-auto w-9 sm:w-11" />
           </a>
           <span className="font-bold tracking-widest leading-tight text-[#1A1A1A]">
-            TOMMY / ARTEM SAMBURA
+            ARTEM SAMBURA
           </span>
           <span className="text-[#888888] hidden sm:inline">·</span>
           <span className="text-[#888888] hidden sm:inline tracking-wider">
