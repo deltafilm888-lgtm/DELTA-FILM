@@ -109,7 +109,8 @@ export const Contact: React.FC = () => {
                 Request a launch email
               </a>
             </div>
-            <h3 className="text-[28px] sm:text-[34px] font-bold uppercase tracking-[0.2em] text-[#1A1A1A] leading-none">
+            <h3 className="flex flex-wrap items-center gap-3 text-[28px] sm:text-[34px] font-bold uppercase tracking-[0.2em] text-[#1A1A1A] leading-none">
+              <img src="/favicon.svg?v=monogram" alt="" width="56" height="56" className="h-12 w-12 sm:h-14 sm:w-14" />
               DELTA FILM
             </h3>
           </div>
